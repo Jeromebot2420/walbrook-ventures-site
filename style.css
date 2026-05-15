@@ -198,6 +198,19 @@ section {
   font-weight: 400;
 }
 
+.logo-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-tagline {
+  font-size: 0.65rem;
+  color: var(--slate-400);
+  letter-spacing: 0.5px;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -669,6 +682,21 @@ nav a:hover {
   font-weight: 500;
 }
 
+.teaming-notice {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  background: rgba(184, 149, 42, 0.05);
+  border-left: 3px solid var(--gold-500);
+  border-radius: 0 8px 8px 0;
+  font-size: var(--font-size-sm);
+  color: var(--slate-300);
+  line-height: 1.6;
+}
+
+.teaming-notice strong {
+  color: var(--gold-400);
+}
+
 /* Capability Statement CTA */
 .capstmt-cta {
   padding: 2.5rem;
@@ -823,6 +851,10 @@ nav a:hover {
 
   .mobile-menu-toggle {
     display: flex;
+  }
+
+  .logo-tagline {
+    display: none;
   }
 
   .info-grid {
