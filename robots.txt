@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://walbrook-ventures.com/sitemap.xml
+Sitemap: https://www.walbrook-ventures.com/sitemap.xml
